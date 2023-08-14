@@ -1,0 +1,19 @@
+.home{
+    margin-left: 15%;
+    margin-top: 20px;
+}
+chess-board {
+    width: 480px;
+    margin-left: 14%;
+  }
+.home-btn{
+    margin-left: 11%;
+}
+.home-footer{
+    bottom: 0;
+    background-color: cadetblue;
+    color:rgb(43, 9, 43);
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+}
