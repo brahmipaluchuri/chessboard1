@@ -41,9 +41,9 @@ export default function Home() {
           ref={boardRef}
           >
         </chess-board>
-        <button className='home-btn' onClick={handleFlip}>Flip Board</button>
-        <button className='home-btn' onClick={handleClear}>Clear Board</button>
-        <button className='home-btn' onClick={handleSetPosition}>Start Position</button>
+        <button  onClick={handleFlip}>Flip Board</button>
+        <button  onClick={handleClear}>Clear Board</button>
+        <button  onClick={handleSetPosition}>Start Position</button>
       </div>
       <div className='home-footer'>&copy;Right belongs to brahmi developer</div>
       </>
